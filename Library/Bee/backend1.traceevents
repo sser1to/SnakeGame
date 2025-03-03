@@ -1,0 +1,386 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1719163494131182, "dur":1473, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1719163494132664, "dur":129, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1719163494132829, "dur":328, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1719163494133260, "dur":55, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":0, "ts":1719163494133172, "dur":2532, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1719163494135707, "dur":72658, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1719163494208366, "dur":348, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1719163494208884, "dur":1659, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1719163494134008, "dur":2053, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1719163494136061, "dur":3681, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1719163494139759, "dur":138, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.34f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
+,{ "pid":12345, "tid":1, "ts":1719163494139743, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/27070/OneDrive/ /SnakeGame/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1719163494139898, "dur":96, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1719163494154861, "dur":1210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1719163494156184, "dur":4316, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719163494160527, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1719163494160600, "dur":4484, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719163494165137, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1719163494165222, "dur":4671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719163494169926, "dur":153, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1719163494170102, "dur":4549, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719163494174700, "dur":174, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1719163494174897, "dur":5532, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719163494180534, "dur":6420, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719163494187067, "dur":7325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719163494194463, "dur":2965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":1, "ts":1719163494197578, "dur":2487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1719163494200123, "dur":8273, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1719163494134228, "dur":1871, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1719163494136100, "dur":3601, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1719163494139726, "dur":137, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.34f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
+,{ "pid":12345, "tid":2, "ts":1719163494139702, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/27070/OneDrive/ /SnakeGame/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1719163494143145, "dur":3025, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1719163494146732, "dur":2412, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1719163494149189, "dur":326, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1719163494149754, "dur":3736, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719163494153573, "dur":2980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719163494156592, "dur":314, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1719163494156954, "dur":4526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719163494161558, "dur":4666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719163494166312, "dur":5301, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719163494171646, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1719163494171724, "dur":5325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719163494177087, "dur":289, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1719163494177397, "dur":5856, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719163494183342, "dur":6775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719163494190182, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1719163494190274, "dur":6668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719163494196975, "dur":223, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1719163494197219, "dur":3744, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1719163494200990, "dur":7379, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1719163494133925, "dur":1872, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1719163494135800, "dur":844, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1719163494136644, "dur":3053, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1719163494142592, "dur":4001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1719163494146672, "dur":67, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.34f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1719163494146671, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/27070/OneDrive/ /SnakeGame/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1719163494147214, "dur":2497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1719163494149861, "dur":4498, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1719163494154399, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1719163494154575, "dur":4242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1719163494158877, "dur":159, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1719163494159068, "dur":4102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/Unity.Collections.LowLevel.ILSupport.dll" }}
+,{ "pid":12345, "tid":3, "ts":1719163494163213, "dur":181, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1719163494163430, "dur":3947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":3, "ts":1719163494167439, "dur":218, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1719163494167687, "dur":5387, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1719163494173138, "dur":215, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1719163494173408, "dur":5346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1719163494178817, "dur":185, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1719163494179032, "dur":6513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1719163494185641, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1719163494185734, "dur":7682, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1719163494193474, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1719163494193591, "dur":6596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1719163494200240, "dur":8159, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1719163494134151, "dur":1934, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1719163494136086, "dur":3652, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1719163494139740, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/27070/OneDrive/ /SnakeGame/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1719163494139918, "dur":199, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1719163494176698, "dur":2145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1719163494178926, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1719163494179039, "dur":5877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1719163494184967, "dur":219, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1719163494185212, "dur":7352, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1719163494192619, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1719163494192709, "dur":6674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1719163494199440, "dur":8952, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1719163494133663, "dur":2059, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1719163494135724, "dur":757, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1719163494136481, "dur":3287, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1719163494139769, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/27070/OneDrive/ /SnakeGame/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1719163494139894, "dur":164, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1719163494163506, "dur":1939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1719163494165540, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1719163494165630, "dur":5719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":5, "ts":1719163494171425, "dur":291, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1719163494171736, "dur":6429, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1719163494178235, "dur":293, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1719163494178580, "dur":6160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1719163494184803, "dur":180, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1719163494185013, "dur":6739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1719163494191815, "dur":509, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1719163494192353, "dur":7133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1719163494199549, "dur":8883, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1719163494133706, "dur":2022, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1719163494135731, "dur":876, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1719163494136607, "dur":3139, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1719163494139763, "dur":91, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.34f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1719163494139747, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/27070/OneDrive/ /SnakeGame/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1719163494143938, "dur":2616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1719163494146608, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/27070/OneDrive/ /SnakeGame/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1719163494146892, "dur":2990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1719163494150015, "dur":5067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1719163494155112, "dur":327, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1719163494155468, "dur":3847, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1719163494159376, "dur":248, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1719163494159653, "dur":3840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":6, "ts":1719163494163534, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1719163494163637, "dur":4409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":6, "ts":1719163494168100, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1719163494168189, "dur":5222, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1719163494173496, "dur":467, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1719163494173994, "dur":6597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1719163494180647, "dur":315, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1719163494180988, "dur":6753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1719163494187816, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1719163494187931, "dur":8064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1719163494196116, "dur":2380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":6, "ts":1719163494198553, "dur":9810, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1719163494133742, "dur":1996, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1719163494135764, "dur":920, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1719163494136685, "dur":3005, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1719163494139775, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/app.info" }}
+,{ "pid":12345, "tid":7, "ts":1719163494139850, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1719163494154380, "dur":1503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/app.info" }}
+,{ "pid":12345, "tid":7, "ts":1719163494155889, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1719163494156011, "dur":3970, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1719163494160007, "dur":96, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1719163494160123, "dur":4956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1719163494165173, "dur":249, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1719163494165442, "dur":5212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1719163494170716, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1719163494170838, "dur":5455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1719163494176486, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1719163494176578, "dur":6531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1719163494183182, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1719163494183338, "dur":7562, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1719163494190955, "dur":515, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1719163494191527, "dur":7194, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1719163494198791, "dur":9598, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1719163494133766, "dur":2011, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1719163494135781, "dur":799, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1719163494136580, "dur":3114, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1719163494139723, "dur":145, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.34f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":8, "ts":1719163494139695, "dur":174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/27070/OneDrive/ /SnakeGame/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":8, "ts":1719163494139870, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1719163494143058, "dur":3685, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":8, "ts":1719163494146809, "dur":571, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp\\StagingArea\\WindowsPlayer.exe" }}
+,{ "pid":12345, "tid":8, "ts":1719163494146809, "dur":572, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1.exe" }}
+,{ "pid":12345, "tid":8, "ts":1719163494147425, "dur":1491, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1.exe" }}
+,{ "pid":12345, "tid":8, "ts":1719163494149768, "dur":4789, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":8, "ts":1719163494154628, "dur":339, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1719163494154991, "dur":4506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":8, "ts":1719163494159529, "dur":106, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1719163494159656, "dur":4777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":8, "ts":1719163494164470, "dur":222, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1719163494164723, "dur":4016, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1719163494168799, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1719163494168905, "dur":5657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1719163494174641, "dur":240, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1719163494174945, "dur":6468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1719163494181474, "dur":172, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1719163494181672, "dur":6628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1719163494188360, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1719163494188442, "dur":8242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1719163494196741, "dur":118, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1719163494196895, "dur":3143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/level0" }}
+,{ "pid":12345, "tid":8, "ts":1719163494200089, "dur":8320, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1719163494133868, "dur":1917, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1719163494135789, "dur":1117, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1719163494136907, "dur":2793, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1719163494139702, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/27070/OneDrive/ /SnakeGame/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":9, "ts":1719163494142957, "dur":3643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":9, "ts":1719163494147266, "dur":1511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1719163494148878, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1719163494149746, "dur":4801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":9, "ts":1719163494154618, "dur":381, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1719163494155015, "dur":3756, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":9, "ts":1719163494158830, "dur":196, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1719163494159078, "dur":4120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1719163494163238, "dur":145, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1719163494163423, "dur":4460, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":9, "ts":1719163494167941, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1719163494168054, "dur":5299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1719163494173413, "dur":131, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1719163494173571, "dur":5642, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1719163494179275, "dur":312, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1719163494179606, "dur":6366, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1719163494186031, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1719163494186117, "dur":7679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1719163494193847, "dur":289, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1719163494194162, "dur":6536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1719163494200759, "dur":7617, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1719163494133948, "dur":1913, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1719163494135872, "dur":653, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1719163494136525, "dur":3171, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1719163494139714, "dur":212, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.34f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
+,{ "pid":12345, "tid":10, "ts":1719163494139700, "dur":227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/27070/OneDrive/ /SnakeGame/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":10, "ts":1719163494139928, "dur":215, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1719163494177807, "dur":1730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":10, "ts":1719163494179603, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1719163494179747, "dur":6428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1719163494186233, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1719163494186343, "dur":7381, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1719163494193780, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1719163494193863, "dur":6797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1719163494200715, "dur":7726, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1719163494133999, "dur":1999, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1719163494136010, "dur":413, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1719163494136423, "dur":3313, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1719163494139746, "dur":179, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.34f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1719163494139738, "dur":189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/27070/OneDrive/ /SnakeGame/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1719163494139928, "dur":220, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1719163494177705, "dur":1612, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1719163494179365, "dur":213, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1719163494179596, "dur":6067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1719163494185773, "dur":6711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1719163494192524, "dur":157, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1719163494192701, "dur":6277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1719163494199010, "dur":9395, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1719163494133545, "dur":2170, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1719163494135719, "dur":3963, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1719163494139758, "dur":114, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
+,{ "pid":12345, "tid":12, "ts":1719163494140076, "dur":74, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\27070\\SnakeGame1\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":12, "ts":1719163494140151, "dur":70, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\27070\\SnakeGame1\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1719163494140222, "dur":314, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\27070\\SnakeGame1\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Burst.dll" }}
+,{ "pid":12345, "tid":12, "ts":1719163494140538, "dur":484, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\27070\\SnakeGame1\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1719163494141023, "dur":123, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\27070\\SnakeGame1\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1719163494141147, "dur":76, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\27070\\SnakeGame1\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":12, "ts":1719163494141224, "dur":359, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\27070\\SnakeGame1\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":12, "ts":1719163494141584, "dur":70, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\27070\\SnakeGame1\\Library\\Bee\\PlayerScriptAssemblies\\Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":12, "ts":1719163494141655, "dur":92, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\27070\\SnakeGame1\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1719163494141748, "dur":213, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\27070\\SnakeGame1\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":12, "ts":1719163494141963, "dur":132, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\27070\\SnakeGame1\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":12, "ts":1719163494142096, "dur":295, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\27070\\SnakeGame1\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Collections.dll" }}
+,{ "pid":12345, "tid":12, "ts":1719163494142393, "dur":130, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\27070\\SnakeGame1\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1719163494142524, "dur":189, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\27070\\SnakeGame1\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":12, "ts":1719163494142714, "dur":606, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\27070\\SnakeGame1\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1719163494143321, "dur":248, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\27070\\SnakeGame1\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":12, "ts":1719163494143569, "dur":80, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\27070\\SnakeGame1\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":12, "ts":1719163494139757, "dur":4039, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":12, "ts":1719163494143863, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1719163494144374, "dur":1946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/boot.config" }}
+,{ "pid":12345, "tid":12, "ts":1719163494146356, "dur":325, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1719163494146879, "dur":2874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1719163494149859, "dur":3076, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":12, "ts":1719163494152980, "dur":360, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1719163494153365, "dur":2850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":12, "ts":1719163494156255, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1719163494156343, "dur":4334, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":12, "ts":1719163494160710, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1719163494160848, "dur":4746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/Unity.Collections.dll" }}
+,{ "pid":12345, "tid":12, "ts":1719163494165632, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1719163494165713, "dur":5265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1719163494171021, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1719163494171114, "dur":5832, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1719163494176991, "dur":384, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1719163494177399, "dur":6215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1719163494183670, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1719163494183740, "dur":6683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1719163494190464, "dur":193, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1719163494197401, "dur":81, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1719163494190675, "dur":6817, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1719163494197590, "dur":2842, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":12, "ts":1719163494200466, "dur":7918, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1719163494134059, "dur":2010, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1719163494136069, "dur":3653, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1719163494139756, "dur":108, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1719163494143105, "dur":3335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":13, "ts":1719163494146513, "dur":157, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1719163494146827, "dur":2888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":13, "ts":1719163494149865, "dur":3856, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":13, "ts":1719163494153747, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1719163494153836, "dur":3266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":13, "ts":1719163494157140, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1719163494157236, "dur":3928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":13, "ts":1719163494161193, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1719163494161272, "dur":4525, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":13, "ts":1719163494165835, "dur":267, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1719163494166122, "dur":5033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1719163494171266, "dur":5433, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1719163494176745, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1719163494176844, "dur":6173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1719163494183058, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1719163494183131, "dur":6435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1719163494189609, "dur":342, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1719163494189973, "dur":6444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1719163494196459, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1719163494196543, "dur":3306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":13, "ts":1719163494199921, "dur":8446, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1719163494134093, "dur":1982, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1719163494136075, "dur":3666, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1719163494139745, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/27070/OneDrive/ /SnakeGame/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":14, "ts":1719163494139871, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1719163494143770, "dur":2387, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":14, "ts":1719163494146716, "dur":1388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":14, "ts":1719163494148676, "dur":3595, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":14, "ts":1719163494152332, "dur":446, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1719163494152827, "dur":3482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":14, "ts":1719163494156419, "dur":4571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":14, "ts":1719163494161020, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1719163494161089, "dur":4450, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":14, "ts":1719163494165664, "dur":5037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1719163494170742, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1719163494170822, "dur":4766, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1719163494175686, "dur":6395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1719163494182121, "dur":392, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1719163494182536, "dur":6723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1719163494189303, "dur":116, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1719163494189439, "dur":7106, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1719163494196880, "dur":1766, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":14, "ts":1719163494198679, "dur":9681, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1719163494134115, "dur":1966, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1719163494136081, "dur":3610, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1719163494139766, "dur":87, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.34f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1719163494140076, "dur":106, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\27070\\SnakeGame1\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":15, "ts":1719163494140183, "dur":80, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\27070\\SnakeGame1\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":15, "ts":1719163494140264, "dur":297, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\27070\\SnakeGame1\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Burst.dll" }}
+,{ "pid":12345, "tid":15, "ts":1719163494140563, "dur":460, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\27070\\SnakeGame1\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":15, "ts":1719163494141024, "dur":137, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\27070\\SnakeGame1\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":15, "ts":1719163494141162, "dur":106, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\27070\\SnakeGame1\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":15, "ts":1719163494141270, "dur":317, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\27070\\SnakeGame1\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":15, "ts":1719163494141588, "dur":78, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\27070\\SnakeGame1\\Library\\Bee\\PlayerScriptAssemblies\\Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":15, "ts":1719163494141667, "dur":90, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\27070\\SnakeGame1\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":15, "ts":1719163494141758, "dur":240, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\27070\\SnakeGame1\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":15, "ts":1719163494141999, "dur":105, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\27070\\SnakeGame1\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":15, "ts":1719163494142105, "dur":271, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\27070\\SnakeGame1\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Collections.dll" }}
+,{ "pid":12345, "tid":15, "ts":1719163494142376, "dur":134, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\27070\\SnakeGame1\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":15, "ts":1719163494142510, "dur":76, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\27070\\SnakeGame1\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":15, "ts":1719163494142587, "dur":670, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\27070\\SnakeGame1\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":15, "ts":1719163494143258, "dur":297, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\27070\\SnakeGame1\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":15, "ts":1719163494143556, "dur":159, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\27070\\SnakeGame1\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":15, "ts":1719163494139693, "dur":4164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"GenerateNativePluginsForAssemblies Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker" }}
+,{ "pid":12345, "tid":15, "ts":1719163494143858, "dur":120, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1719163494144920, "dur":1789, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":15, "ts":1719163494146712, "dur":51, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.34f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":15, "ts":1719163494146711, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/27070/OneDrive/ /SnakeGame/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":15, "ts":1719163494147180, "dur":4610, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":15, "ts":1719163494151837, "dur":202, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1719163494152067, "dur":3415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":15, "ts":1719163494155540, "dur":137, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1719163494155698, "dur":4656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":15, "ts":1719163494160410, "dur":159, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1719163494160584, "dur":4582, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":15, "ts":1719163494165210, "dur":204, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1719163494165445, "dur":4106, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":15, "ts":1719163494169587, "dur":151, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1719163494169786, "dur":5252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1719163494175078, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1719163494175181, "dur":5435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1719163494180661, "dur":328, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1719163494181059, "dur":6618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1719163494187715, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1719163494187835, "dur":7085, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1719163494195021, "dur":1091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":15, "ts":1719163494196188, "dur":2605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":15, "ts":1719163494198826, "dur":9547, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1719163494134173, "dur":1917, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1719163494136090, "dur":3654, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1719163494139745, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/27070/OneDrive/ /SnakeGame/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":16, "ts":1719163494139873, "dur":184, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1719163494163169, "dur":1702, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":16, "ts":1719163494164914, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1719163494164984, "dur":4390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":16, "ts":1719163494169423, "dur":314, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1719163494169784, "dur":4598, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1719163494174429, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1719163494174542, "dur":5720, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1719163494180383, "dur":6428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1719163494186852, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1719163494186956, "dur":6979, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/SnakeGame1_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1719163494194041, "dur":14235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/27070/OneDrive/ /SnakeGame/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":0, "ts":1719163494213724, "dur":1337, "ph":"X", "name": "ProfilerWriteOutput" }
+,
